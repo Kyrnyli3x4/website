@@ -1,0 +1,70 @@
+.container{
+  .content{
+    padding: 100px 0px ;
+    display: flex;
+    justify-content: space-around;
+    .welcome__text{
+
+      width: 50%;
+      height: 300px;
+    }
+    .solo__text{
+      font-size: 90px;
+      font-weight: bold;
+    }
+    .text__paragraph{
+     font-size: 28px;
+    }
+  }
+  .cards__content{
+    display: flex;
+
+
+   .image{
+     width: 50%;
+   }
+   .content__form{
+     padding: 60px;
+     width: 50%;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+
+     .head{
+       font-size: 40px;
+       font-weight: bold;
+     }
+     .content{
+       padding: 18px 0px;
+       font-size: 18px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 24px;
+     }
+     .btn{
+       display: flex;
+       padding: 150px 0px 0px 0px;
+       gap: 70px;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: end;
+       border: none;
+
+       .btn__control1{
+         font-size: 30px;
+         font-weight: bold;
+         color: white;
+         background: #272931;
+         width: 264px;
+         height: 80px;
+       }
+       .btn__control2{
+         font-size: 30px;
+         font-weight: bold;
+         width: 264px;
+         height: 80px;
+       }
+     }
+   }
+  }
+}

@@ -1,0 +1,44 @@
+.block__content{
+  display: flex;
+  flex-direction: row;
+}
+
+.content_f{
+
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+  &__image{
+    padding: 20px 0px;
+  }
+
+  .text__txt{
+    font-size: 32px;
+    padding: 20px 0px;
+  }
+
+  .block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 550px;
+    height: 30px;
+
+    .icon-bx{
+      padding: 5px 3px 0px 0px;
+      width: 34px;
+      height: 21px;
+    }
+
+    &__text{
+      font-size: 18px;
+      display: flex;
+      justify-content: start;
+      padding: 3px 0px 0px 12px;
+    }
+  }
+
+}
+

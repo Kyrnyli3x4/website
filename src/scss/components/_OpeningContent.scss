@@ -1,0 +1,40 @@
+.content__cards{
+
+
+  &__opening{
+    padding: 12px 0px;
+  }
+  .menu__cards{
+    margin: 0px 0px 0px 0px;
+    height: 188px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+    .position__button{
+      padding: 0px 15px;
+      .button__btn{
+        width: 252px;
+        height: 56px;
+        background-color: #F9FAFF;
+        color: black;
+        border: none;
+      }
+    }
+    .cards__wrap{
+      width: 352px;
+      height: 76px;
+      font-size: 36px;
+    }
+  }
+  .list{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+}

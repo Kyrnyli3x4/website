@@ -1,0 +1,39 @@
+
+.text {
+  padding: 7% 0%;
+  display: flex;
+  justify-content: right;
+  font-size: 26px;
+}
+.main{
+  font-weight: bold;
+  text-align: center;
+  font-size: 100px;
+  white-space: nowrap;
+
+}
+
+.header__footer{
+
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 10% 0%;
+
+
+  &__text{
+
+  }
+
+}
+.header__button{
+
+
+  .btn{
+    border: none;
+    color: white;
+    background-color: #363535;
+    width: 250px;
+    height: 50px;
+  }
+}

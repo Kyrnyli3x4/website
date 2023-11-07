@@ -1,0 +1,18 @@
+.blog__content{
+  width: 790px;
+  height: 600px;
+  background-color: #DEC4E4;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 0px;
+
+  &__cards{
+    width: 20px;
+    height: 30px;
+  }
+
+  .cards__text{
+
+    list-style: none;
+  }
+}
